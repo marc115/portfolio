@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={GeistSans.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light" ///!Remember to change to system
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange>
             <div className="flex flex-col h-screen">
