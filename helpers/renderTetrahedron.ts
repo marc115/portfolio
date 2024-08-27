@@ -1,5 +1,4 @@
 import * as three from 'three';
-import { useTheme } from 'next-themes'
 
 const getConeColor = (theme: string) => {
     const themes: {[key: string]: string} = {

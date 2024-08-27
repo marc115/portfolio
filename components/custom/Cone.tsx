@@ -8,10 +8,9 @@ export const Cone = () => {
     const {theme} = useTheme();
     useEffect(() => {
         renderCone(theme ?? 'light');
-    }, [])
+    }, [theme])
     return (
         <canvas id="cone">
-
         </canvas>
     )
 }
