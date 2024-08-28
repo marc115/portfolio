@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Works() {
     return (
-        <>
+        <div className="md:mx-32">
             <h1 className="font-bold text-5xl gradient-tex m-5">My Works</h1>
             <div className="flex flex-grow flex-col p-5 gap-y-8">
                 {works.map(project => (
-                    <div key={project.name} className="flex md:flex-row flex-col dark:bg-gray-900 bg-gray-200 rounded-lg shadow-md">
+                    <div key={project.name} className="flex md:flex-row flex-col dark:bg-gray-900 bg-gray-50 rounded-lg shadow-md">
                         <Image src='/works/nike-lookalike-thumbnail.png' 
                             className="md:rounded-l-lg rounded-t-lg" 
                             alt="project thumbnail" width={700} height={700} />
@@ -32,6 +32,6 @@ export default function Works() {
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     )
 }

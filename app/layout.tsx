@@ -23,7 +23,7 @@ export default function RootLayout({
           defaultTheme="light"
           enableSystem={false}
           disableTransitionOnChange>
-          <div className="flex flex-col h-screen">
+          <div className="flex flex-col h-screen bg-gradient-to-br from-slate-50 to-sky-100 dark:from-slate-900 dark:to-sky-900">
             <Header />
             {/* Background grid */}
             <div className="bg-grid">
