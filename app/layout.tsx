@@ -20,13 +20,16 @@ export default function RootLayout({
       <body className={GeistSans.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem={false}
           disableTransitionOnChange>
-            <div className="flex flex-col h-screen">
-              <Header />
-              {children}
+          <div className="flex flex-col h-screen">
+            <Header />
+            {/* Background grid */}
+            <div className="bg-grid">
             </div>
+            {children}
+          </div>
 
         </ThemeProvider>
       </body>
