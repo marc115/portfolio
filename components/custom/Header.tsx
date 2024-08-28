@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="flex flex-row gap-x-3">
         {
           menuItems.map(item => (
-            <Link className="rounded-lg dark:hover:bg-gray-800 hover:bg-gray-200 px-3 py-2" href={item.url}>{item.name}</Link>
+            <Link key={item.name} className="rounded-lg dark:hover:bg-gray-800 hover:bg-gray-200 px-3 py-2" href={item.url}>{item.name}</Link>
           ))
         }
       </div>
