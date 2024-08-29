@@ -13,7 +13,7 @@ export default function Works() {
                     <div key={project.name} className="flex md:flex-row flex-col dark:bg-gray-900 bg-gray-50 rounded-lg shadow-md">
                         <Image src='/works/nike-lookalike-thumbnail.png' 
                             className="md:rounded-l-lg rounded-t-lg" 
-                            alt="project thumbnail" width={700} height={700} />
+                            alt="project thumbnail" width={700} height={300} />
                         <div className="flex flex-col m-5 gap-y-4">
                             <p className="font-bold text-3xl gradient-tex">{project.name}</p>
                             <p>{project.description}</p>

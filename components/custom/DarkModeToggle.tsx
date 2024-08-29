@@ -11,8 +11,12 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+interface Props {
+    className?: string
+}
 
-export const DarkModeToggle = () => {
+
+export const DarkModeToggle = ({ className}: Props) => {
     const { setTheme } = useTheme()
 
     return (
