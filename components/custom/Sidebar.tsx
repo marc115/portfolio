@@ -17,7 +17,6 @@ export const Sidebar = () => {
       </SheetTrigger>
       <SheetContent side={'right'}>
         <div className="grid gap-6 p-6">
-          <Link href='/' className="text-lg font-medium hover:text-gray-300">Home</Link>
           {
             menuItems.map((item) => (
               <Link key={item.name} className="text-lg font-medium hover:text-gray-300"
