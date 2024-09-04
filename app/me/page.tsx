@@ -13,7 +13,7 @@ export default function Me() {
                         a software developer aiming to build practical software.</h1>
                     <p>A professional that learned to code both from a school and on my own, I don&apos;t shy away from searching online when the need calls for it.</p>
                     <p>I graduated as a software developer in Peru at the end of 2023, and have started to work shortly since then. </p>
-                    <p>My interests involve web development, and I'm familiar with both front and back end programming. I also plan to learn about systems programming languages such a Rust.</p>
+                    <p>My interests involve web development, and I&apos;m familiar with both front and back end programming. I also plan to learn about systems programming languages such a Rust.</p>
                     <div>
                         
                     </div>
