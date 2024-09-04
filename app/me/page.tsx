@@ -17,7 +17,7 @@ export default function Me() {
                     <p>A professional that learned to code both from a school and on my own, I don&apos;t shy away from searching online when the need calls for it.</p>
                     <p>I graduated as a software developer in Peru at the end of 2023, and have started to work shortly since then. </p>
                     <p>My interests involve web development, and I&apos;m familiar with both front and back end programming. I also plan to learn about systems programming languages such a Rust.</p>
-                    <div className='border border-white p-5 rounded-lg flex items-center justify-center gap-x-3'>
+                    <div className='border border-slate-400 dark:border-white p-5 rounded-lg flex items-center justify-center gap-x-3'>
                         {
                             socials.map((social) => (
                                 <Link href={social.link} key={social.link} target='_blank'
