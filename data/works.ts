@@ -5,6 +5,7 @@ export const works = [
         name: 'Nike Lookalike',
         description: 'A mock website inspired by Nike to test my Tailwind skills.',
         thumbnail: nikeThumbnail,
+        technologies: ['React', 'Tailwind CSS'],
         liveUrl: 'https://nike-lookalike.vercel.app/'
     },
     // {

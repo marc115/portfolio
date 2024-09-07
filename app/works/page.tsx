@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { works } from "@/data/works";
 import { ExternalLink } from "lucide-react";
@@ -16,6 +17,12 @@ export default function Works() {
                             alt="project thumbnail" width={700} height={300} />
                         <div className="flex flex-col m-5 gap-y-4">
                             <p className="font-bold text-3xl gradient-tex">{project.name}</p>
+                            {/* Badge */}
+                            {
+                                project.technologies.map(technology => (
+                                    <Badge variant={"secondary"}>{technology}</Badge>
+                                ))
+                            }
                             <p>{project.description}</p>
                             {
                                 project.liveUrl &&
